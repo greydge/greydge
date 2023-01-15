@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -19,7 +18,8 @@ class _LoginPageState extends State<LoginPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: const [
             //logo(160, 160),
-            Text('Login')
+            Text('Login'),
+            Text('LOGIN WITH ME')
           ],
         ),
       ),
